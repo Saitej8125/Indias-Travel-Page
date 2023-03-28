@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./Project_travel.css">
+    <link rel="stylesheet" href="./Project_travel2.css">
+    <link rel="stylesheet" href="./Project_travel3.css">
+    <script src="./Project_travel.js" defer></script>
+    <script src="./Project_travel_top.js" defer></script>
+</head>
+<body onload="timerphoto(),colorchange()" >
+    <form action="" method="get">
+        <div id="topContainer" >
+            <h1 id="toptravelindia"><i class="fa-solid fa-globe"></i>&nbsp;India's Travel</h1>
+            <h1 id="topsearch" onmouseover="" onmouseout=""><i class="fa-solid fa-magnifying-glass"></i>&nbsp;Search</h1>
+            <h1 id="topdesintationop" onmouseover="visible()" onmouseout="invisiable()">Destinations
+                <i class="fa-solid fa-caret-up" id="arrowupo"></i>
+                <div id="topcontaineroptions">
+                    <img src="./bengulurupalace.jpg" id="exploreimage">
+                    <h1 id="exploredetails">Explore the <br>unexpected </h1>
+                    <h1 id="featured">Featured</h1>
+                    <div id="topdestheading">
+                        <p id="topstates" style="line-height: 1;">Andhra Pradesh</p>
+                        <p id="topstates" style="line-height: 1;">Arunachal Pradesh</p>
+                        <p id="topstates" style="line-height: 1;">Assam</p>
+                        <p id="topstates" style="line-height: 1;">Bihar</p>
+                        <p id="topstates" style="line-height: 1;">Chhattisgarh</p>
+                        <p id="topstates" style="line-height: 1;">Goa</p>
+                        <p id="topstates" style="line-height: 1;">Haryana</p>
+                        <p id="topstates" style="line-height: 1;">Himachal Pradesh</p>
+                        <p id="topstates" style="line-height: 1;">Jharkhand</p>
+                        <p id="topstates" style="line-height: 1;">Karnataka</p>
+                        <p id="topstates" style="line-height: 1;">Kerala</p>
+                        <p id="topstates" style="line-height: 1;">Madhya Pradesh</p>
+                        <p id="topstates" style="line-height: 1;">Maharashtra</p>
+                        <p id="topstates" style="line-height: 1;">Manipur</p>
+                        <p id="topstates" style="line-height: 1;">Meghalaya</p>
+                        <p id="topstates" style="line-height: 1;">Mizoram</p>
+                        <p id="topstates" style="line-height: 1;">Nagaland</p>
+                        <p id="topstates" style="line-height: 1;">Odisha</p>
+                        <p id="topstates" style="line-height: 1;">Punjab</p>
+                        <p id="topstates" style="line-height: 1;">Rajasthan</p>
+                        <p id="topstates" style="line-height: 1;">Sikkim</p>
+                        <p id="topstates" style="line-height: 1;">Tamil Nadu</p>
+                        <p id="topstates" style="line-height: 1;">Telangana</p>
+                        <p id="topstates" style="line-height: 1;">Uttarakhand</p>
+                        <p id="topstates" style="line-height: 1;">Uttar Pradesh</p>
+                        <p id="topstates" style="line-height: 1;">West Bengal</p> 
+                    </div>
+                    <input type="button" id="clicktoview" value="See All Destinations"> 
+                </div>
+            </h1>
+            <h1 id="topstoriesvideos" onmouseover="storyvisible()" onmouseout="stroyinvisiable()">Stories/videos
+                <i class="fa-solid fa-caret-up" id="arrowups"></i>
+                <div id="topcontainervideos">
+                    <img src="./Adventures-min.jpg" id="exploreimage">
+                    <h1 id="exploredetails">India' Travel<br>Newsletters </h1>
+                    <h1 id="featured">Featured</h1>
+                    <div id="topdestinterest">
+                        <p id="topinterest" style="line-height: 1;">Adventure Travel</p>               
+                        <p id="topinterest" style="line-height: 1;">Art and Culture</p>           
+                        <p id="topinterest" style="line-height: 1;">Beaches, Coasts and islands</p>           
+                        <p id="topinterest" style="line-height: 1;">Family Holidays</p>           
+                        <p id="topinterest" style="line-height: 1;">Festivals</p>           
+                        <p id="topinterest" style="line-height: 1;">Food and Drink</p>           
+                        <p id="topinterest" style="line-height: 1;">Honeymood and Romance</p>           
+                        <p id="topinterest" style="line-height: 1;">Road Trips</p>           
+                        <p id="topinterest" style="line-height: 1;">Sustainable travels</p>           
+                        <p id="topinterest" style="line-height: 1;">Travel on a Budget</p>           
+                        <p id="topinterest" style="line-height: 1;">Wildlife and Nature</p>  
+                    </div>
+                    <input type="button" id="clicktoview" value="See All Newsletters"> 
+                </div>
+            </h1>
+            <h1 id="topshop" onmouseover="shopvisible()" onmouseout="shopinvisiable()">Shop
+                <i class="fa-solid fa-caret-up" id="arrowupsh"></i>
+                <div id="topcontainershop">
+                    <img src="./beach-min.jpg" id="exploreimage">
+                    <h1 id="exploredetails">New Books Release</h1>
+                    <h1 id="featured">Featured</h1>
+                    <div id="topdestshop">
+                        <p id="topgudie" style="line-height: 0.7;">Destination Guides</p>               
+                        <p id="topgudie" style="line-height: 0.7;">India Gifts</p>           
+                        <p id="topgudie" style="line-height: 0.7;">Indian culture</p> 
+                        <p id="topgudie" style="line-height: 0.7;">Indian shop</p> 
+                    </div>
+                    <input type="button" id="clicktoshop" value="See All Shops"> 
+                </div>
+            </h1>
+            <a href="./Signup.html"><input type="button" value="Signup" id="topSignup"></a>
+            <h1 id="title">Encase Lighting <br> Hours, <br>in your life:</h1>
+            <a href="#"><div id="sidetop">Top
+                <i class="fa-duotone fa-shake" id="topoption">
+                <i class="fa-solid fa-jet-fighter fa-rotate-270" ></i></i>
+            </div></a>
+            <a href="./index.html" target="_self">
+            <div id="sideHome">Home
+                <i class="fa-solid fa-house-heart fa-flip fa-xs" id="home">
+                <i class="fa-solid fa-house-chimney"></i></i>
+            </div></a>
+        </div>
+        <div>
+            <h1 id="plan">Plan your travel trip</h1>
+            <h2 id="where">where to plan?</h2>
+            <a href="./Project_travel.html"><input type="button" id="viewallDestinations" value="View all Destinations"></a>
+            <div id="planetImages">
+                <img class="box">
+                <img class="box">
+                <img class="box"><br>
+                <img class="box">
+                <img class="box">
+                <img class="box">
+             </div>
+             <div id="boxplaces">
+                <h1 class="states">Telengana</h1>
+                <h1 class="states">Andhra Pradesh</h1>
+                <h1 class="states">Kerala</h1><br>
+                <h1 class="states">Himachal Pradesh</h1>
+                <h1 class="states">Karnataka</h1>
+                <h1 class="states">Maharashtra</h1>
+             </div>
+        </div>
+        <div id="boxvideo">
+            <div id="ScreenVideo">
+                <video src="./Pexels Videos 1448735.mp4"  width="100%" autoplay muted loop></video>
+                    <h1 id="bestintravel">Best in <br> travel</h1>
+                    <h1 id="year"> 2023 </h1>
+                <div id="textresult">
+                    <p >The results are in! Explore this year's expert-approved list of <br> must-see destinations, places, and unforgettable <br> experiences guaranteed to inspire.</p>
+                </div>
+            </div>
+        </div>
+        <a href="./Signup.html"><input type="button" value="Subscribe" id="subscribe" onclick="sub()"></a>
+        <div id="sides">
+            <div id="SideBox1"> </div>
+                <h1 id="detailsSide1"><p><br>&nbsp;&nbsp;&nbsp;&nbsp; #Historical</p><br><p id="intro">The Red Fort is located in Delhi, opposite the Chandni Chowk market. It was built by the famous Mughal emperor Shah Jahan in 1648. It is one of the historical structures of Delhi, which is mainly known for its architecture. Due to the use of red sandstone and marble, it is known as Red Fort.</p></h1>
+            <div id="SideBox2"></div>
+                <h1 id="detailsSide2"><p><br>&nbsp;&nbsp;&nbsp;&nbsp; #Indian Cultures</p><br><p id="intro">Indian culture is the heritage of social norms and technologies that originated in or are associated with the ethno-linguistically diverse India. The term also applies beyond India to countries and cultures whose histories are strongly connected to India by immigration, colonisation, or influence, particularly in South Asia and Southeast Asia. India's languages, religions, dance, music, architecture, food and customs differ from place to place within the country.</p></h1>
+            <div id="SideBox3"></div>
+                <h1 id="detailsSide3"><p><br>&nbsp;&nbsp;&nbsp;&nbsp; #Hill Stations</p><br><p id="intro">are high-altitude towns for recreation, enjoyment and used as a place of refuge to escape the blistering heat in India during summertime. As India is a vast country with limited amounts of the coastal area most of its towns and districts face continental type of climate with summer being very hot so hill stations becomes an excellent spot to escape such hot and humid conditions as well as a place of enjoyment to spent quality time with your family and partner during summer break.</p></h1>
+            <i class="fa-solid fa-circle-chevron-left" id="changeKeys" onclick="increase()"></i>
+            <i class="fa-solid fa-circle-chevron-right" id="changeKeys" onclick="decrease()"></i>
+        </div>
+        <div id="mapContainer">
+            <h1 id="populardestination">Popular destinations</h1>
+            <h1 id="basedondestination">Based on your location in Hyderabad&nbsp;&nbsp;<a href="https://www.google.com/maps/@17.4675757,78.4477725,12z"><i class="fa-regular fa-circle-question"></i></a></h1>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243685.94905400788!2d78.137380925!3d17.383309000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb968ea6aea98f%3A0x6b76ecdfd65a335a!2sGolconda%20Fort!5e0!3m2!1sen!2sin!4v1679062095314!5m2!1sen!2sin" width="650" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="placeLocation">
+                <a href="https://www.google.com/maps/place/Sri+Venkateswara+Swamy+Vaari+Temple/@13.6832724,79.3452283,17z/data=!3m1!4b1!4m6!3m5!1s0x3bb2b562a5cc709b:0x407a00bd52587d32!8m2!3d13.6832724!4d79.347417!16s%2Fm%2F026gs6_">
+                <img src="./tirupati.jpg" id="placesphotos"></a>
+                <div id="placetextbox">
+                    <h1 id="textplace">&nbsp;&nbsp;Tirupati</h1>
+                    <h1 id="placedeatils">Indian city with Sri Venkateswara Temple in Tirumala Hills & Sri Venkateswara National Park & Zoo.</h1>
+                </div>
+            </div><br>
+            <div id="placeLocation">
+                <a href="https://www.google.com/maps/place/Taj+Falaknuma+Palace,+Hyderabad/@17.3314792,78.4632375,17z/data=!3m1!4b1!4m9!3m8!1s0x3bcbbd5654172a41:0xd3dbb0c22420002e!5m2!4m1!1i2!8m2!3d17.3314792!4d78.4674647!16s%2Fm%2F0277x86">
+                <img src="./TajFalaknumaPalaceHyderabad.jpg"id="placesphotos"></a>
+                <div id="placetextbox">
+                    <h1 id="textplace">&nbsp;&nbsp;Taj Falaknuma Palace Hyderabad</h1>
+                    <h1 id="placedeatils">The elegant rooms feature Colonial-style furniture and marble floors, plus flat-screens, DVD players and free Wi-Fi. Upgraded rooms have canopy beds; stately suites add separate sitting and/or dining areas. Room service is offered 24/7.</h1>
+                </div>
+            </div><br>
+            <div id="placeLocation">
+                <a href="https://www.google.com/maps/place/Bengaluru+Palace/@12.998766,77.5899184,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae1649294a5637:0xb1f8b77e331512cf!8m2!3d12.998766!4d77.5921071!16s%2Fm%2F02pf96d">
+                <img src="./bengulurupalace.jpg" id="placesphotos"></a>
+                <div id="placetextbox">
+                    <h1 id="textplace">&nbsp;&nbsp;Bengaluru Palace</h1>
+                    <h1 id="placedeatils">Royal residence open for visits & events</h1>
+                </div>
+            </div>
+        </div>
+        <div id="bookingoffers">
+            <h1 id="trusted">Trusted by the Best and Brightest websites</h1>
+            <marquee behavior="scroll" direction="left" scrollamount="20" id="bookingoffer">
+                <h1 id="websites"><b style="color: blue;">G</b><b style="color: red;">o</b><b style="color: orange;">o</b><b style="color: blue;">g</b><b style="color: green;">l</b><b style="color: red;">e</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="color: orange;">J</i>spider&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="color: royalblue;">Fontawesome</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b style="color: red;">Red Bus</b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="color: greenyellow;">Travelplanet</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="color: darkblue;">pexabey</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <i style="color: brown;">Destinations Blog</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                </h1>
+             </marquee>
+             <a href=""><input type="button" value="Click here for booking your travel plan tickets" id="bookingdetails"></a>
+        </div>
+        <div id="topplacesContainer">
+            <div id="rankingbox">
+                <h1 id="rankingDetails">Top Ranked: <br> Destinations of india</h1><br>
+                <p id="rankdata">Most famous places are located in several states in india. Traveling gives an excellent experience of gaining peace, adventure, memories, risk in laast of entire life. </p>
+                <p id="rankdata1">Check out the India's Leading places and, <br> how they stack up:</p><br>
+                <input type="button" value="Display" id="displaybox">
+                <input type="button" value="webside places" id="displaybox1"><i class="fa-solid fa-arrow-right" id="displaybox2"></i>
+            </div>
+            <div id="top5container">
+                <div class="topplace" id="topplaces1"><i id="cup" class="fa-solid fa-award"></i><p id="top">#</p><h1 id="topno">1</h1><p id="toptxt">Hyderabad</p></div>
+                <div class="topplace" id="topplaces2"><i id="top">#</i><h1 id="topno">2</h1><p id="toptxt">Vizay</p></div>
+                <div class="topplace" id="topplaces3"><i id="top">#</i><h1 id="topno">3</h1><p id="toptxt">Kerala</p></div>
+                <div class="topplace" id="topplaces4"><i id="top">#</i><h1 id="topno">4</h1><p id="toptxt">Manali</p></div>
+                <div class="topplace" id="topplaces5"><i id="top">#</i><h1 id="topno">5</h1><p id="toptxt">Karnataka</p></div>
+            </div>
+        </div>
+        <!---->
+        <div id="ProfiletagBox">
+            <h1 id="indiatag">#India's Travel Planet</h1>
+            <div id="txttagbox">Follow India's Travel:
+                <div id="tagbox">
+                    <a href="https://www.instagram.com/accounts/login/" target="_self"><i class="fa-brands fa-instagram" style="color: hotpink;"></i></a> 
+                    <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc3NDA4Nzc3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D" target="_self"><i class="fa-brands fa-facebook" style="color: white;"></i></a> 
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"  target="_self"><i class="fa-brands fa-twitter" style="color: skyblue;"></i></a> 
+                    <a href="https://www.youtube.com/"  target="_self"><i class="fa-brands fa-youtube" style="color: red;"></i></a> 
+                    <a href="https://in.pinterest.com/login/"  target="_self"><i class="fa-brands fa-pinterest" style="color: brown;"></i></a> 
+                 </div>
+            </div>
+            <div id="travelimggallery">
+                <table style="border-collapse: collapse;">
+                    <tr>
+                        <th><img class="imgbox"><h1 id="nametags">@Beaches</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Historical_Places</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Colorfull_Cities</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Hills_Mountains</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Temples_Devolutions</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Hidden_Mysters</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Nature_attentions</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Zoology_Parks</h1></th>
+                        <th><img class="imgbox"><h1 id="nametags">@Waterfalls</h1></th>
+                    </tr>
+                </table>
+             </div>
+        </div>
+        <div id="detailsBox">
+            <div id="box1">
+            <div id="indiatravel">India's Travel
+                <p id="explore">For Explorers Everywhere</p>
+                <h1 id="follow">Follow us</h1>
+                <div id="logbox">
+                   <a href="https://www.instagram.com/accounts/login/" target="_self"><i class="fa-brands fa-instagram" style="color: hotpink;"></i></a> 
+                   <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc3NDA4Nzc3LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D" target="_self"><i class="fa-brands fa-facebook" style="color: blue;"></i></a> 
+                   <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"  target="_self"><i class="fa-brands fa-twitter" style="color: skyblue;"></i></a> 
+                   <a href="https://www.youtube.com/"  target="_self"><i class="fa-brands fa-youtube" style="color: red;"></i></a> 
+                   <a href="https://in.pinterest.com/login/"  target="_self"><i class="fa-brands fa-pinterest" style="color: brown;"></i></a> 
+                </div>
+                <h1 id="subscribekey">subscribe</h1>
+                <h1 id="discount">Get 20% off our online <br> shop.</h1>
+                <input type="text" placeholder="Email address" id="emailsignup">
+                <h1 id="boxtext">Subscribe to India's Travel Planet news letters and promotions. Read our <u style="color: blue;"> Privacy Policy.</u></h1>
+                <a href="./Signup.html"><input type="button" value="Sign Up" id="signup"></a> 
+            </div>
+            </div>
+            <div id="box2">
+                <h1 id="topdesintations">Top destinations
+                <p id="states" style="line-height: 2;">Andhra Pradesh</p>
+                <p id="states" style="line-height: 2;">Arunachal Pradesh</p>
+                <p id="states" style="line-height: 2;">Assam</p>
+                <p id="states" style="line-height: 2;">Goa</p>
+                <p id="states" style="line-height: 2;">Haryana</p>
+                <p id="states" style="line-height: 2;">Himachal Pradesh</p>
+                <p id="states" style="line-height: 2;">Karnataka</p>
+                <p id="states" style="line-height: 2;">Kerala</p>
+                <p id="states" style="line-height: 2;">Madhya Pradesh</p>
+                <p id="states" style="line-height: 2;">Maharashtra</p>
+                <p id="states" style="line-height: 2;">Meghalaya</p>
+                <p id="states" style="line-height: 2;">Odhisha</p>
+                <p id="states" style="line-height: 2;">Punjab</p>
+                <p id="states" style="line-height: 2;">Rajasthan</p>
+                <p id="states" style="line-height: 2;">Sikkim</p>
+                <p id="states" style="line-height: 2;">Tamil Nadu</p>
+                <p id="states" style="line-height: 2;">Telangana</p>
+                <p id="states" style="line-height: 2;">West Bengal</p>
+                </h1>
+            </div>
+            <div id="box3">
+                <h1 id="travelinterest">Travel Interest
+                 <p id="interest" style="line-height: 2;">Adventure Travel</p>               
+                 <p id="interest" style="line-height: 2;">Art and Culture</p>           
+                 <p id="interest" style="line-height: 2;">Beaches, Coasts and islands</p>           
+                 <p id="interest" style="line-height: 2;">Family Holidays</p>           
+                 <p id="interest" style="line-height: 2;">Festivals</p>           
+                 <p id="interest" style="line-height: 2;">Food and Drink</p>           
+                 <p id="interest" style="line-height: 2;">Honeymood and Romance</p>           
+                 <p id="interest" style="line-height: 2;">Road Trips</p>           
+                 <p id="interest" style="line-height: 2;">Sustainable travels</p>           
+                 <p id="interest" style="line-height: 2;">Travel on a Budget</p>           
+                 <p id="interest" style="line-height: 2;">Wildlife and Nature</p>               
+                </h1>
+            </div>
+            <div id="box4">
+                <h1 id="shop">Shop
+                    <p id="gudie" style="line-height: 2;">Destination Guides</p>               
+                    <p id="gudie" style="line-height: 2;">India Gifts</p>           
+                    <p id="gudie" style="line-height: 2;">Indian culture</p> 
+                    <p id="gudie" style="line-height: 2;">Indian shop</p>           
+                </h1>
+            </div>
+            <div id="box5">
+                <h1 id="aboutus">About Us
+                    <p id="us" style="line-height: 2;">About India's Travel</p>               
+                    <p id="us" style="line-height: 2;">Contact Us</p>           
+                    <p id="us" style="line-height: 2;">Trade,Press and Advertising</p>           
+                    <p id="us" style="line-height: 2;">Family Holidays</p>           
+                    <p id="us" style="line-height: 2;">Private Policy</p>           
+                    <p id="us" style="line-height: 2;">Terms and Conditions</p>           
+                    <p id="us" style="line-height: 2;">Honeymood and Romance</p>           
+                    <p id="us" style="line-height: 2;">Work for Us</p>           
+                    <p id="us" style="line-height: 2;">Write for Us</p>           
+                    <p id="us" style="line-height: 2;">SiteMap</p>           
+                    <p id="us" style="line-height: 2;">Cookie Settings</p> 
+                    <p id="us">Do Not Sell or Share My Personal Information</p>              
+                </h1>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

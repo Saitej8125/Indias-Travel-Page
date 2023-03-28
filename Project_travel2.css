@@ -1,0 +1,316 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#ProfiletagBox{
+    width: 99.9%;
+    position: relative;
+    top: 205vh;
+    height: 450px;
+    background-color: blue;
+    overflow: hidden;
+}
+#indiatag{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    word-spacing: 5px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+#txttagbox{
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    right: 250px;
+    font-family: 'Quicksand', sans-serif;
+}
+#tagbox{
+    position: absolute;
+    word-spacing: 10px;
+    font-size: 25px;
+    width: 200px;
+    height: 38px;
+    top: -5px;
+    left: 220px;
+    background-color: transparent;   
+}
+#tagbox:hover{
+    scale: 1.1;
+}
+#travelimggallery{
+    width: 84vw;
+    height: 35vh;
+    position: absolute;
+    top: 18vh;
+}
+.imgbox{
+    width: 172px;
+    height: 35vh;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    opacity: 0.6;
+    border: none;
+    border-radius: none;
+    background-position: center;
+    background-image: url(./portugal-3029665_1920.jpg);
+    background-size: 500px;
+}
+#nametags{
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 30px;
+}
+.imgbox:hover{
+    opacity: 1;
+    border: none;
+}
+
+
+
+
+#detailsBox{
+    display: flex;
+    width: 99.6%;
+    height: 800px;
+    position: relative;
+    top: 215vh;
+    background-color: transparent;
+    opacity: 0.8;
+}
+#indiatravel{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#explore{
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+}
+#follow{
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+#logbox{
+    position: absolute;
+    word-spacing: 10px;
+    font-size: 30px;
+    top: 240px;
+    width: 350px;
+    height: 40px;
+    background-color: transparent;
+}
+#logbox:hover{
+    scale: 1.1;
+}
+#subscribekey{
+    position: relative;
+    top: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+#discount{
+    position: relative;
+    top: 250px;
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+#discount:hover{
+    scale: 1.1;
+}
+#emailsignup{
+    position: relative;
+    top: 270px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid grey;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    text-indent: 20px;
+    color: white;
+}
+#boxtext{
+    position: absolute;
+    top: 82vh;
+    color: gray;
+    text-indent: 20px;
+    text-align: left;
+    width: 280px;
+    height: 100px;
+    font-size: 15px;
+}
+#box1{
+    width: 50vw;
+    height: 800px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+    overflow: hidden;
+
+}
+#signup{
+    width: 120px;
+    height: 45px;
+    position: relative;
+    top: 380px;
+    border: 2px solid gray;
+    font-size: 20px;
+    font-weight: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+}
+#signup:hover{
+    background-color: blue;
+    border: 2px solid black;
+
+}
+#box2{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    width: 350px;
+    height: 700px;
+}
+#topdesintations{
+    color: white;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50px;
+    left: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#states{
+    position: relative;
+    color: gray;
+    font-family: initial;
+    top: 10px;
+    left: 5px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+}
+#states:hover{
+    color: white;
+    scale: 1.2;
+}
+#travelinterest{
+    color: white;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#interest{
+    position: relative;
+    color: gray;
+    font-family: initial;
+    top: 10px;
+    left: 5px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+}
+#interest:hover{
+    color: white;
+    scale: 1.2;
+}
+#box3{
+    position: relative;
+    top: 5px;
+    left: 100px;
+    width: 30%;
+    height: 700px;
+}
+#box4{
+    position: relative;
+    top: 5px;
+    left: 130px;
+    width: 400px;
+    height: 300px;
+}
+#shop{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50px;
+    left: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+#gudie{
+    position: relative;
+    color: gray;
+    font-family: initial;
+    top: 10px;
+    left: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+}
+#gudie:hover{
+    color: white;
+    scale: 1.2;
+}
+#box5{
+    position: relative;
+    top: 200px;
+    right: 75px;
+    width: 450px;
+    height: 300px;
+}
+#aboutus{
+    color: white;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50px;
+    left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#us{
+    position: relative;
+    color: gray;
+    font-family: initial;
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+}
+#us:hover{
+    color: white;
+    scale: 1.2;
+}
+

@@ -1,0 +1,818 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 800vh;
+    background-color:black;
+    cursor: pointer;
+}
+#topContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    transition: all 2s;
+}
+#title{
+    font-size: 100px;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    width: 70vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    boder: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    opacity: 0.6;
+    box-shadow: 2px 2px 5px black,-2px -2px 5px black,-2px 2px 5px black,2px -2px 5px black;
+}
+#topSignup{
+    width: 7vw;
+    height: 5vh;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+}
+#topSignup:hover{
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+}
+#toptravelindia{
+    font-size: 35px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+#topsearch{
+    font-size: 20px;
+    position: absolute;
+    left: 40vw;
+    top: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+#topdesintationop{
+    font-size: 20px;
+    position: absolute;
+    left: 55vw;
+    top: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+#topstoriesvideos{
+    font-size: 20px;
+    position: absolute;
+    left: 68vw;
+    top: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+#topshop{
+    font-size: 20px;
+    position: absolute;
+    left: 82vw;
+    top: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
+
+#sidetop{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    border: 5px solid blue;
+    position: fixed;
+    right:10px ;
+    bottom: 40px;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5px;
+    background-color: black;
+}
+#sidetop:hover{
+    opacity: 1;
+    scale: 1.1;
+}
+#sideHome{
+    width: 60px;
+    height: 55px;
+    border-radius: 20px;
+    border: 5px solid blue;
+    background-color: black;
+    position: fixed;
+    right:10px ;
+    bottom: 120px;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+#sideHome:hover{
+    opacity: 1;
+    scale: 1.1;
+}
+#home{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    bottom: 35px;
+}
+#topoption{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#plan{
+    color: blue;
+    position: relative;
+    margin-top: 10vh;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-left: 56px;
+}
+#where{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 56px;
+}
+.box{
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.box:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+#planetImages{
+    position: absolute;
+    top: 135vh;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-left: 30px;
+    row-gap: 60px;
+    column-gap: 60px;
+    z-index: 1;  
+}
+#boxplaces{
+    position: absolute;
+    top: 142.5vh;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-top: 250px;
+    margin-left: 30px;
+    row-gap: 360px;
+    column-gap: 60px;
+}
+.states{
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.7;
+    z-index: 1;
+   
+}
+.states:hover{
+    border-radius: 10px;
+}
+#viewallDestinations{
+    width: 20vw;
+    height: 7vh;
+    position: relative;
+    left: 71vw;
+    bottom: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 5px double blue;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#viewallDestinations:hover{
+    border: 2px double gray;
+    background-color: white;
+    color: black;
+}
+#boxvideo{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 150vh;
+}
+#ScreenVideo{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+#bestintravel{
+    font-size: 140px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Aclonica', sans-serif;
+    letter-spacing: -5px;
+    z-index: 4;
+    position: relative;
+    bottom: 95vh;
+}
+#year{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    font-display: 50px;
+    position: relative;
+    bottom: 95vh;
+}
+#textresult{
+    width: 600px;
+    height: 80px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    align-items: left;
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bolder;
+    font-family: 'Aclonica', sans-serif;
+    position: relative;
+    bottom: 80vh;
+}
+#subscribe{
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    position: relative;
+    top:125vh;
+    left: 75vw;
+    border: 3px solid black;
+    color: white;
+    background-color: red;
+    opacity: 0.5;
+    box-shadow: 2px 2px 5px black;
+}
+#subscribe:hover{
+    opacity: 1;
+}
+
+#sides{
+    width: 100%;
+    height: 99vh;
+    position: relative;
+    top: 160vh;
+    background-color: transparent;
+}
+#SideBox1{
+    width: 28vw;
+    height: 45vh;
+    border-radius: 120px;
+    position: relative;
+    top: 1.5vw;
+    left: 35px;
+    background-size: 550px ;
+    background-position: center;
+    background-image: url(./histroical.jpg);
+    background-repeat: no-repeat;
+}
+#SideBox1:hover{
+    scale: 1.1;
+    box-shadow: 2px 2px 5px white;
+}
+#SideBox2{
+    width: 28vw;
+    height: 45vh;
+    border-radius: 120px;
+    position: relative;
+    bottom: 76.5vh;
+    left: 34.5vw;
+    background-size: 550px ;
+    background-image: url(./indianCulturals.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#SideBox2:hover{
+    scale: 1.1;
+    box-shadow: 2px 2px 5px white;
+}
+#SideBox3{
+    width: 28vw;
+    height: 45vh;
+    border-radius: 120px;
+    position: absolute;
+    top: 1.5vw;
+    left: 67vw;
+    background-size: 550px ;
+    background-position: center;
+    background-image: url(./Hillstations.jpg);
+    background-repeat: no-repeat;
+}
+#SideBox3:hover{
+    scale: 1.1;
+    box-shadow: 2px 2px 5px white;
+}
+#SideMoveImages{
+    position: relative;
+    top: 115vh;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin-top: 250px;
+    margin-left: 30px;
+    row-gap: 310px;
+    column-gap: 60px;
+}
+#changeKeys{
+    width: 80px;
+    height: 80px;
+    color: white;
+    background-color: gray;
+    font-size: 40px;
+    opacity: 0.6;
+    position: relative;
+    bottom: 108vh;
+    left: 43vw;
+    border-radius: 100%;
+}
+#changeKeys:hover{
+    border: 5px groove blue;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+#detailsSide1{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 5vh;
+    left: 32px;
+    width: 30vw;
+    height: 34vh;
+}
+#detailsSide2{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 74.5vh;
+    left: 34vw;
+    width:  30vw;
+    height: 34vh;
+    overflow: hidden;
+}
+#detailsSide3{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 109.2vh;
+    left: 67vw;
+    width:  30vw;
+    height: 34vh;
+}
+#intro{
+    position: relative;
+    bottom: 20px;
+    font-size: 14px;
+    color: gray;
+    font-weight: none;
+}
+#mapContainer{
+    width: 99%;
+    height: 90vh;
+    position: relative;
+    top: 170vh;
+    border: 2px solid white;
+}
+#map{
+    width: 47vw;
+    height: 80vh;
+    border: 2px solid white;
+    position: relative;
+    bottom: 2vh;
+    left: 48vw;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: 100%;
+}
+#populardestination{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#basedondestination{
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#placeLocation{
+    width: 43vw;
+    height: 20vh;
+    border: 2px solid gray;
+    border-radius: 20px;
+    position: relative;
+    bottom: 70vh;
+    left: 20px;
+    overflow: hidden;
+}
+#placesphotos{
+    width: 16vw;
+    height: 20.5vh;
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+#placesphotos:hover{
+    scale: 1.1;
+}
+#placetextbox{
+    width: 24vw;
+    height: 16.5vh;
+    position: relative;
+    left: 240px;
+    bottom: 20vh;
+}
+#textplace{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    z-index: 1;
+    
+}
+#textplace:hover{
+    scale: 1.1;
+}
+#placedeatils{
+    color: gray;
+    position: relative;
+    top: 12px;
+    font-size: 14px;
+    z-index: 1;
+}
+#bookingoffers{
+    width: 100%;
+    height: 42vh;
+    position: relative;
+    top: 190vh;
+    overflow: hidden;
+}
+#bookingoffer{
+    width: 89vw;
+    height: 15vh;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    color: white;
+}
+#trusted{
+    color: white;
+    font-size: 30px;
+    width: 60vw;
+    height: 10vh;
+    position: relative;
+    text-transform: uppercase;
+    left: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px double gray;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 2px white;
+}
+
+#websites{
+    position: relative;
+    top: 35px;
+    left: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#bookingdetails{
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    top: 30px;
+    background-color: gray;
+    border: none;
+    color: white;
+    font-size: 25px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+#bookingdetails:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid blue;
+}
+#topplacesContainer{
+    width: 99%;
+    height: 90vh;
+    position: relative;
+    border: 2px solid gray;
+    top: 200vh;
+}
+#top5container{
+    width: 55vw;
+    height: 80vh;
+    position: relative;
+    bottom: 500px;
+    left: 40vw;
+    color: gray;
+}
+#rankingbox{
+    width: 36vw;
+    height: 80vh;
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: white;
+}
+#rankdata{
+    color: gray;
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+}
+#rankdata1{
+    color: gray;
+    position: absolute;
+    top: 330px;
+    font-size: 20px;
+}
+#displaybox{
+    width: 150px;
+    height: 45px;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: orange;
+    border: 2px solid white;
+    position: absolute;
+    top: 420px;
+    left: 20px;
+}
+#displaybox1{
+    width: 250px;
+    height: 45px;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    top: 480px;
+    right: 190px;
+    color: orange;
+    background-color: transparent;
+    border: none;
+}
+#displaybox1:hover{
+    scale: 1.1;
+}
+#displaybox2:hover{
+    scale:1.1;  
+}
+#displaybox2{
+    width: 250px;
+    height: 45px;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    top: 493px;
+    right: 170px;
+    color: orange;
+    background-color: transparent;
+    border: none;
+}
+.topplace{
+    width: 13vw;
+    height: 45vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid gray;
+    
+}
+#topno{
+    color: white;
+    width: 90px;
+    height: 80px;
+    position: relative;
+    left: 84px;
+    top: 40px;
+    font-size: 70px;
+    font-weight: bold;
+}
+#cup{
+    font-size: 30px;
+    color: red;
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    bottom: 42vh;
+}
+#toptxt{
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    top: 150px;
+    opacity: 0.8;
+}
+#top{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+#topplaces1{
+    z-index: 5;
+    background-image: url(./1-min.jpg);
+    background-position: center;
+    background-size: 540px;
+    background-repeat: no-repeat;
+}
+#topplaces1:hover{
+    scale: 1.1;
+    z-index: 6;
+    position: absolute;
+    box-shadow: 2px 2px 2px gray;
+}
+#topplaces2{
+    z-index: 4;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    background-image: url(./2-min.jpg);
+    background-position: center;
+    background-size: 540px;
+    background-repeat: no-repeat;
+}
+#topplaces2:hover{
+    scale: 1.1;
+    z-index: 6;
+    box-shadow: 2px 2px 2px gray;
+    position: absolute;
+}
+#topplaces3{
+    z-index: 3;
+    position: absolute;
+    top: 90px;
+    left: 290px;
+    background-image: url(./3-min.jpg);
+    background-position: center;
+    background-size: 540px;
+    background-repeat: no-repeat;
+}
+#topplaces3:hover{
+    scale: 1.1;
+    z-index: 6;
+    box-shadow: 2px 2px 2px gray;
+    position: absolute;
+}
+#topplaces4{
+    z-index: 2;
+    position: absolute;
+    top: 130px;
+    left: 430px;
+    background-image: url(./4-min.jpg);
+    background-position: center;
+    background-size: 540px;
+    background-repeat: no-repeat;
+}
+#topplaces4:hover{
+    scale: 1.1;
+    z-index: 6;
+    box-shadow: 2px 2px 2px gray;
+    position: absolute;
+}
+#topplaces5{
+    z-index: 1;
+    position: absolute;
+    top: 170px;
+    left: 570px;
+    background-image: url(./5-min.jpg);
+    background-position: center;
+    background-size: 520px;
+    background-repeat: no-repeat;
+}
+#topplaces5:hover{
+    scale: 1.1;
+    z-index: 6;
+    box-shadow: 2px 2px 2px gray;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

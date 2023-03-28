@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#topcontaineroptions{
+    width: 30vw;
+    height: 65vh;
+    border: 2px solid white;
+    margin-top: 0px;
+    position: relative;
+    right: 150px;
+    z-index: 2;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+}
+#topdestheading{
+    width: 25vw;
+    height: 155vh;
+    border-top: 2px solid gray;
+    margin-left: 30px;
+    position: relative;
+    bottom: 40px;
+    z-index: 2;
+}
+#exploredetails{
+    font-size: 18px;
+    text-shadow: none;
+    margin-left: 190px;
+    color: black;
+    position: relative;
+    bottom: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#exploreimage{
+    width: 120px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#featured{
+    font-size: 20px;
+    text-shadow: none;
+    margin-left: 190px;
+    color: gray;
+    position: relative;
+    bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topstates{
+    color: black;
+    font-size: 20px;
+    text-shadow: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7;
+}
+#clicktoview{
+    width: 28.5vw;
+    height: 6vh;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+#arrowupo{
+    position: relative;
+    top: 10.5px;
+    left: 50px;
+    display: none;
+}
+#topcontainervideos{
+    width: 30vw;
+    height: 65vh;
+    border: 2px solid white;
+    margin-top: 0px;
+    position: relative;
+    right: 140px;
+    z-index: 2;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+}
+#arrowups{
+    position: relative;
+    top: 10.5px;
+    left: 60px;
+    display: none;
+}
+#topinterest{
+    color: black;
+    font-size: 20px;
+    text-shadow: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7; 
+}
+#topdestinterest{
+    width: 25vw;
+    height: 65vh;
+    border-top: 2px solid gray;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+    z-index: 2;
+}
+#topcontainershop{
+    width: 30vw;
+    height: 51.9vh;
+    border: 2px solid white;
+    margin-top: 0px;
+    position: relative;
+    right: 200px;
+    z-index: 2;
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+#topdestshop{
+    width: 25vw;
+    height: 19vh;
+    border-top: 2px solid gray;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+    z-index: 2;
+}
+#topgudie{
+    color: black;
+    font-size: 20px;
+    text-shadow: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7;
+}
+#clicktoshop{
+    width: 32vw;
+    height: 6vh;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+#arrowupsh{
+    position: relative;
+    top: 10.5px;
+    left: 20px;
+    display: none;
+}
